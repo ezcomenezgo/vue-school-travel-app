@@ -1,0 +1,13 @@
+{
+  // tell vsCode only focus the files in src folder
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    // let vsCode can use intellisense when we're using @ symbols
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
